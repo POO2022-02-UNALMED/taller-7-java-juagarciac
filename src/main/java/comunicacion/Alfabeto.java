@@ -1,6 +1,6 @@
 package comunicacion;
 
-public class Alfabeto extends pictograma {
+public class Alfabeto extends Pictograma {
 	private String[] letras;
 	private String interpretacion;
 	
