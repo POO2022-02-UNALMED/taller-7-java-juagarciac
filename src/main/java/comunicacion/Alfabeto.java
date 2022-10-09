@@ -26,7 +26,7 @@ public class Alfabeto extends Pictograma {
 		for (int i=0;i<this.letras.length-1;i++) {
 			p+=this.letras[i]+", ";
 		}
-		p+=this.letras[-1];
+		p+=this.letras[this.letras.length-1];
 		return p;
 	}
 	public int cantidadLetras() {
