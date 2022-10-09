@@ -51,7 +51,10 @@ public class Tesis extends Escrito {
 	public int palabrasTotales(int factor) {
 		return factor*this.getPaginas()*5;
 	}
+	public int cantidadArgumentos() {
+		return this.argumentos.length;
+	}
 	public String toString() {
-		return this.getOrigen()+"\n"+this.getTitulo()+"\n"+this.getAutor()+"\n"+this.getPaginas()+"\n"+this.getIdea()+"\n"+this.getConclusion()+"\n"+this.getReferencias();
+		return this.getOrigen()+"\n"+this.getTitulo()+"\n"+this.getAutor()+"\n"+this.getPaginas()+"\n"+this.getIdea()+"\n"+this.cantidadArgumentos()+"\n"+this.getConclusion()+"\n"+this.getReferencias();
 	}
 }
